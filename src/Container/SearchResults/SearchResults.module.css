@@ -43,7 +43,7 @@
 
 @media (max-width: 1024px) {
     .SearchResults {
-        width: 500px;
+        width: 600px;
         margin-left: 210px;
     }
 }
@@ -176,8 +176,8 @@
 
 @media (max-width: 320px) {
     .SearchResults {
-        width: 340px;
-        margin-left: 0px;
+        width: 310px;
+        margin-left: 5px;
         overflow-x: hidden;
     }
 }

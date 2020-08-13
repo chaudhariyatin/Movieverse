@@ -113,77 +113,13 @@
 
 @media (max-width: 480px) {
     .Searchbar input {
-        width: 160px;
+        width: 190px;
     }
 }
 
 @media (max-width: 375px) {
     .Searchbar input {
-        width: 140px;
+        width: 190px;
 
     }
 }
-
-
-/* @media (max-width: 1125px) {
-    .Searchbar input {
-        width: 530px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .Searchbar form {
-        width: 600px;
-        margin-left: 70px;
-    }
-}
-
-
-@media (max-width: 900px) {
-    .Searchbar input {
-        width: 500px;
-    }
-
-    .Searchbar form {
-        width: 450px;
-    }
-}
-
-@media (max-width: 768px) {
-    /* .Searchbar input {
-        width: 500px;
-    } */
-
-/* .Searchbar form {
-        width: 470px;
-        margin-left: 20px;
-    }
-}  */
-
-
-
-/* .Search {
-    padding-top: 1px;
-    
-    box-sizing: border-box;
-    height: 32;
-}
-
-
-.SearchButton {
-
-    font-size: 20px;
-    height: 32px;
-    width: 70px;
-    border: none;
-    border-radius: 5px;
-    z-index: 10;
-}
-
-@media (max-width:576px) {
-    .SearchButton {
-        width: px;
-        font-size: 10px;
-
-    }
-} */
