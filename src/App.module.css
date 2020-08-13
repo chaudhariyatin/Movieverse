@@ -1,0 +1,17 @@
+.App {
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+.CloseButton {
+    z-index: 10;
+}
+
+
+
+
+@media (max-width: 450px) {
+    .App {
+        overflow-x: hidden;
+    }
+}

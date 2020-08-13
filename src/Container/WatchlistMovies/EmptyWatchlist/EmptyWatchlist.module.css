@@ -1,0 +1,45 @@
+.EmptyWatchlist {
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.EmptyWatchlist img {
+    height: 400px;
+}
+
+@media (max-width: 1024px) {
+    .EmptyWatchlist {
+        margin-bottom: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .EmptyWatchlist {
+        margin-bottom: 300px;
+    }
+}
+
+@media (max-width: 550px) {
+    .EmptyWatchlist img {
+        width: 400px;
+    }
+
+    .EmptyWatchlist {
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width: 440px) {
+    .EmptyWatchlist img {
+        width: 370px;
+    }
+}
+
+@media (max-width: 375px) {
+    .EmptyWatchlist img {
+        width: 340px;
+    }
+}

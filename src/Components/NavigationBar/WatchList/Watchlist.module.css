@@ -1,0 +1,28 @@
+.WatchList span {
+    margin-left: 10px;
+    background-color: #F5C518;
+    box-sizing: border-box;
+    padding: 2.8px 7px 2.8px 7px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: black;
+    text-decoration: none;
+}
+
+.WatchList h4 {
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .WatchList {
+        src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+
+        margin-left: 50px;
+        margin-top: 70px;
+        text-decoration: none;
+    }
+}

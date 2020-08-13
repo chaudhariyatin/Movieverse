@@ -1,0 +1,23 @@
+.input[type="text"] {
+    background: white;
+    width: 700px;
+    height: 32px;
+    border: none;
+    font-size: 20px;
+    border-radius: 2px;
+    outline: none;
+    text-decoration: none;
+}
+
+@media (max-width:650px) {
+    .input[type="text"] {
+        height: 32px;
+        width: 250px;
+    }
+}
+
+/* @media (max-width:576px) {
+    .input[type="text"] {
+        width: 335px;
+    }
+} */

@@ -1,0 +1,72 @@
+.CloseButton {
+    z-index: 4;
+    position: fixed;
+    left: 600px;
+    border-radius: 25px;
+}
+
+@media (max-width:1125px) {
+    .CloseButton {
+        left: 500px;
+    }
+}
+
+@media (max-width:1080px) {
+    .CloseButton {
+        left: 450px;
+    }
+}
+
+@media (max-width: 900px) {
+    .CloseButton {
+        left: 380px;
+    }
+}
+
+@media (max-width: 800px) {
+    .CloseButton {
+        left: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .CloseButton {
+        left: 380px;
+    }
+}
+
+@media (max-width: 650px) {
+    .CloseButton {
+        left: 340px;
+    }
+}
+
+@media (max-width: 600px) {
+    .CloseButton {
+        left: 310px;
+    }
+}
+
+@media (max-width: 500px) {
+    .CloseButton {
+        left: 250px;
+    }
+}
+
+@media (max-width: 450px) {
+    .CloseButton {
+        left: 210px;
+    }
+}
+
+@media (max-width: 411px) {
+    .CloseButton {
+        left: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+    .CloseButton {
+        left: 160px;
+    }
+}

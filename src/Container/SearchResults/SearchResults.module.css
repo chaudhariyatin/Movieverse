@@ -1,0 +1,237 @@
+.SearchResults {
+    display: block;
+    position: absolute;
+    background-color: #212121;
+    width: 765px;
+    height: 618px;
+    margin-left: 240px;
+    margin-top: 50px;
+    z-index: 5;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.Spinner {
+    margin-left: 0px;
+}
+
+.SearchResults ::-webkit-scrollbar {
+    width: 8px;
+}
+
+.SearchResults::-webkit-scrollbar-track {
+    background: #888;
+}
+
+.SearchResults::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+}
+
+@media (max-width: 1125px) {
+    .SearchResults {
+        width: 595px;
+        margin-left: 235px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .SearchResults {
+        margin-left: 170px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .SearchResults {
+        width: 500px;
+        margin-left: 210px;
+    }
+}
+
+@media (max-width: 992px) {
+    .SearchResults {
+        width: 500px;
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 900px) {
+    .SearchResults {
+        width: 500px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .SearchResults {
+        width: 500px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .SearchResults {
+        width: 530px;
+        margin-left: 150px;
+    }
+}
+
+
+@media (max-width: 724px) {
+    .SearchResults {
+        width: 450px;
+        margin-left: 170px;
+    }
+}
+
+@media (max-width: 700px) {
+    .SearchResults {
+
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 650px) {
+    .SearchResults {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 625px) {
+    .SearchResults {
+        margin-left: 110px;
+    }
+}
+
+@media (max-width: 600px) {
+    .SearchResults {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .SearchResults {
+        width: 370px;
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 550px) {
+    .SearchResults {
+        width: 370px;
+        margin-left: 110px;
+    }
+}
+
+@media (max-width: 500px) {
+    .SearchResults {
+        width: 370px;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 478px) {
+    .SearchResults {
+        width: 370px;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 450px) {
+    .SearchResults {
+        width: 400px;
+        margin-left: 18px;
+    }
+}
+
+@media (max-width: 414px) {
+    .SearchResults {
+        width: 370px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 411px) {
+    .SearchResults {
+        width: 370px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .SearchResults {
+        width: 340px;
+        margin-left: 20px;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 360px) {
+    .SearchResults {
+        width: 340px;
+        margin-left: 10px;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 320px) {
+    .SearchResults {
+        width: 340px;
+        margin-left: 0px;
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+
+
+/* .SearchBackdrop {
+    background-color: grey;
+    width: 765px;
+    height: auto;
+    margin-left: 200px;
+    z-index: 2;
+} */
+
+/* .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+} */

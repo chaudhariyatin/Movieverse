@@ -1,0 +1,15 @@
+.Container {
+
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+.Footer {
+    color: white;
+    text-align: center;
+}
+
+.heart::after {
+    content: "❤️";
+}

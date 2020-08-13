@@ -1,0 +1,100 @@
+.WatchlistMovieCard {
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+
+.WatchlistMovieCard img {
+    margin-right: 5px;
+    height: 250px;
+    width: 200px;
+    /* box-sizing: border-box; */
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.WatchlistMovieCard h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-left: 3px solid #f5c518;
+    padding-left: 10px;
+}
+
+.WatchlistMovieCard h6 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.WatchlistMovieCard p {
+    margin-top: 0px;
+}
+
+.WatchlistMovieCard img:hover {
+    transform: scale(1.03);
+}
+
+.WatchlistMovieCard button {
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.WatchlistMovieCard button:hover {
+    background-color: #ff3031;
+}
+
+@media (max-width: 1024px) {
+    .WatchlistMovieCard p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .WatchlistMovieCard p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 450px) {
+    .WatchlistMovieCard {
+        height: 100px;
+        justify-content: start;
+    }
+
+    .Info {
+        margin-left: 0px;
+    }
+
+    .WatchlistMovieCard p {
+        display: none;
+    }
+
+    .WatchlistMovieCard img {
+        height: 100%;
+        width: 100px;
+    }
+}
+
+@media (max-width: 375px) {
+    .WatchlistMovieCard p {
+        font-size: 13px;
+    }
+
+    .WatchlistMovieCard img {
+        height: 100%;
+    }
+}

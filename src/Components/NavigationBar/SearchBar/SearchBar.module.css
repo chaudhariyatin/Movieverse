@@ -1,0 +1,189 @@
+.Searchbar {
+    align-content: center;
+}
+
+
+.Searchbar form {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 2px;
+    background-color: white;
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+
+.Searchbar input {
+    flex-grow: 2;
+    border: none;
+    width: 800px;
+
+    /* background: white;
+    width: 720px;
+    height: 32px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    text-decoration: none; */
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.Searchbar input :focus {
+    outline: none;
+}
+
+.Searchbar button {
+    /* font-size: 15px;
+    width: 60px;
+    height: 34px;
+    border: none;
+
+    border-top-right-radius: 5px; */
+    border: 1px solid white;
+    background: white;
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+
+.Searchbar input[type="button"] :focus {
+    outline: none;
+    outline: 1px dashed black;
+}
+
+@media (max-width: 1080px) {
+    .Searchbar input {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Searchbar input {
+        width: 530px;
+    }
+}
+
+@media (max-width: 800px) {
+    .Searchbar input {
+        width: 480px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Searchbar input {
+        width: 490px;
+    }
+}
+
+@media (max-width: 724px) {
+    .Searchbar input {
+        width: 400px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .Searchbar input {
+        width: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Searchbar input {
+        width: 320px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Searchbar input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Searchbar input {
+        width: 160px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Searchbar input {
+        width: 140px;
+
+    }
+}
+
+
+/* @media (max-width: 1125px) {
+    .Searchbar input {
+        width: 530px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Searchbar form {
+        width: 600px;
+        margin-left: 70px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .Searchbar input {
+        width: 500px;
+    }
+
+    .Searchbar form {
+        width: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* .Searchbar input {
+        width: 500px;
+    } */
+
+/* .Searchbar form {
+        width: 470px;
+        margin-left: 20px;
+    }
+}  */
+
+
+
+/* .Search {
+    padding-top: 1px;
+    
+    box-sizing: border-box;
+    height: 32;
+}
+
+
+.SearchButton {
+
+    font-size: 20px;
+    height: 32px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+@media (max-width:576px) {
+    .SearchButton {
+        width: px;
+        font-size: 10px;
+
+    }
+} */

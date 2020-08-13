@@ -1,0 +1,187 @@
+/* .Container {
+    margin: 0 auto;
+    padding: 0px 40px 40px 40px;
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: white !important;
+}
+
+.slick-track {
+    width: 100px;
+} */
+
+/* .Container {
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 243px;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+} */
+
+.Container {
+    background-color: #121212;
+    box-sizing: border-box;
+    border: 1px solid Black;
+    border-radius: 10px;
+    width: 1300px;
+    height: 520px;
+    margin: auto;
+    /* padding-top: 105px; */
+    margin-top: 20px;
+
+
+}
+
+.ContainerHeader {
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.ContainerHeader h1 {
+    font-size: 24px;
+    border-left: 5px solid #F5C518;
+    padding-left: 10px;
+}
+
+.ContainerHeader p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+
+.slick-prev::before,
+.slick-next::before {
+    color: grey;
+    font-size: 30px;
+}
+
+.slick-prev,
+.slick-next {
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 1;
+}
+
+.slick-list {
+    width: 95%;
+    margin: auto;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
+
+@media (max-width: 1125px) {
+    .Container {
+        width: 1050px;
+    }
+}
+
+@media (max-width: 1125px) {
+    .Container {
+        width: 1030px;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .Container {
+        width: 958px;
+    }
+}
+
+@media (max-width: 950px) {
+    .Container {
+        width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    .Container {
+        width: 850px;
+    }
+}
+
+@media (max-width: 850px) {
+    .Container {
+        width: 820px;
+    }
+}
+
+@media (max-width: 830px) {
+    .Container {
+        width: 760px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Container {
+        width: 720px;
+    }
+}
+
+@media (max-width: 724px) {
+    .Container {
+        width: 650px;
+    }
+}
+
+@media (max-width: 650px) {
+    .Container {
+        width: 590px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Container {
+        width: 530px;
+    }
+}
+
+@media (max-width: 550px) {
+    .Container {
+        width: 480px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Container {
+        width: 460px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Container {
+        width: 420px;
+    }
+}
+
+@media (max-width: 450px) {
+    .Container {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 500px;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        color: transparent;
+        font-size: 30px;
+    }
+}
