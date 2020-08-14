@@ -1,7 +1,6 @@
 import React from "react";
 import "./MovieCard.css";
-import Correct from "../../../Assets/Correct.png";
-import Checked from "../../UI/Checked/Checked";
+
 const movieCard = (props) => {
   const link = "https://image.tmdb.org/t/p/w185";
   const style = props.styleProp;
