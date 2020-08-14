@@ -5,7 +5,6 @@ import classes from "./App.module.css";
 import Home from "./Components/Home/Home";
 import SearchResults from "./Container/SearchResults/SearchResults";
 import SideDrawer from "./Components/SideDrawer/SideDrawer";
-//import CloseButton from "./Components/UI/CloseButton/CloseButton";
 import WatchlistMovies from "./Container/WatchlistMovies/WatchlistMovies";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
@@ -21,7 +20,7 @@ class App extends Component {
     popular: [],
     topRated: [],
     watchlistId: [],
-    // 385103, 385102, 385101, 385100
+
     watchlistMovies: [],
     toggleSideDrawer: false,
   };
@@ -30,7 +29,6 @@ class App extends Component {
     this.nowPlayingDataHandler();
     this.popularMovieDataHandler();
     this.topRatedMovieDataHandler();
-    // this.watchlistMoviesHandler();
   }
 
   watchlistMoviesHandler = () => {
@@ -79,7 +77,6 @@ class App extends Component {
   };
 
   toggleSearchHandler = (e) => {
-    // this.setState({ toggleSearch: true });
     const url = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=1&include_adult=false&query=`;
     let link = url + this.state.movieName;
     Axios.get(link)
@@ -429,7 +426,6 @@ class App extends Component {
             watchlistMoviesHandler={this.watchlistMoviesHandler}
           />
           {searchResults}
-          {/* <h1 className={classes.Header}>Explore movies & TV shows</h1> */}
 
           <Switch>
             <Route

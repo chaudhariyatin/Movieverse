@@ -1,16 +1,17 @@
 .Header {
     src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
     font-family: "Roboto", sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     color: #F5C518;
-    margin-left: 50px;
-    margin-top: 0px;
+
+    margin-top: 10px;
+    text-align: center;
 }
 
 
 @media (max-width: 450px) {
     .Header {
-        font-size: 25px;
-        margin-left: 30px;
+        font-size: 20px;
+
     }
 }

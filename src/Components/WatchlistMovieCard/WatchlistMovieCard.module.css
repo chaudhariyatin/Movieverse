@@ -16,7 +16,6 @@
     margin-right: 5px;
     height: 250px;
     width: 200px;
-    /* box-sizing: border-box; */
     border: none;
     border-radius: 5px;
     overflow: hidden;
@@ -45,12 +44,21 @@
     transform: scale(1.03);
 }
 
+.ButtonPosition {
+    display: flex;
+    margin-bottom: 0px;
+}
+
 .WatchlistMovieCard button {
+    height: 30px;
+    width: 100px;
+    bottom: 20px;
     cursor: pointer;
     text-decoration: none;
     border: none;
-    background-color: white;
+    background-color: #009378;
     border-radius: 5px;
+    margin-bottom: 0px;
 }
 
 .WatchlistMovieCard button:hover {

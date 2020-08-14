@@ -1,5 +1,4 @@
 import React from "react";
-// import classes from "./Logo.module.css";
 import menu from "../../../Assets/HamburgerMenu.png";
 import classes from "./HamburgerMenu.module.css";
 const HamburgerMenu = (props) => {

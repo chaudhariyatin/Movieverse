@@ -9,8 +9,6 @@
     border: none;
     padding: 2px;
     background-color: white;
-    /* border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px; */
     border-radius: 5px;
     height: 30px;
 
@@ -21,15 +19,6 @@
     flex-grow: 2;
     border: none;
     width: 800px;
-
-    /* background: white;
-    width: 720px;
-    height: 32px;
-    border: none;
-    font-size: 20px;
-    border-radius: 5px;
-    outline: none;
-    text-decoration: none; */
     border: none;
     outline: none;
     font-size: 20px;
@@ -42,12 +31,6 @@
 }
 
 .Searchbar button {
-    /* font-size: 15px;
-    width: 60px;
-    height: 34px;
-    border: none;
-
-    border-top-right-radius: 5px; */
     border: 1px solid white;
     background: white;
     color: black;

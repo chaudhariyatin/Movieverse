@@ -14,7 +14,9 @@ const WatchlistMovieCard = (props) => {
           <h4>{props.movieName}</h4>
           <h6>{props.date}</h6>
           <p>{props.description}</p>
-          <button onClick={props.remove}>Remove</button>
+          <div className={classes.ButtonPosition}>
+            <button onClick={props.remove}>Remove</button>
+          </div>
         </div>
       </div>
     </Fragment>

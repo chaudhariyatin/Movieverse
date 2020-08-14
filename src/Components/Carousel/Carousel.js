@@ -6,72 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Carousel.css";
 
 class Carousel extends Component {
-  // state = {
-  //   movieData: [
-  //     {
-  //       id: 1,
-  //       title: "Avengers: Endgame",
-  //       vote_average: 8.3,
-  //       poster_path: "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-  //       release_date: "2019-04-24",
-  //     },
-  //     {
-  //       id: 2,
-  //       title: "Avengers: Endgame",
-  //       vote_average: 8.3,
-  //       poster_path: "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-  //       release_date: "2019-04-24",
-  //     },
-  //     {
-  //       id: 3,
-  //       title: "Avengers: Endgame",
-  //       vote_average: 8.3,
-  //       poster_path: "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-  //       release_date: "2019-04-24",
-  //     },
-  //     {
-  //       id: 4,
-  //       title: "Avengers: Endgame",
-  //       vote_average: 8.3,
-  //       poster_path: "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-  //       release_date: "2019-04-24",
-  //     },
-  //     {
-  //       id: 5,
-  //       title: "Avengers: Endgame",
-  //       vote_average: 8.3,
-  //       poster_path: "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-  //       release_date: "2019-04-24",
-  //     },
-  //     {
-  //       id: 6,
-  //       title: "Avengers: Endgame",
-  //       vote_average: 8.3,
-  //       poster_path: "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-  //       release_date: "2019-04-24",
-  //     },
-  //     {
-  //       id: 7,
-  //       title: "Avengers: Endgame",
-  //       vote_average: 8.3,
-  //       poster_path: "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-  //       release_date: "2019-04-24",
-  //     },
-  //     {
-  //       id: 8,
-  //       title: "Avengers: Endgame",
-  //       vote_average: 8.3,
-  //       poster_path: "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-  //       release_date: "2019-04-24",
-  //     },
-  //   ],
-  // };
-
-  //Context
-
   render() {
-    // let movieData = this.state.movieData;
-
     const settings = {
       dots: false,
       infinite: false,

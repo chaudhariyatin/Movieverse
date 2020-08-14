@@ -11,14 +11,6 @@ class SearchBar extends Component {
     return (
       <div className={classes.Searchbar}>
         <form onSubmit={this.props.toggle}>
-          {/* <SearchField
-            toggleSearch={this.props.toggleSearch}
-            movieName={this.props.movieName}
-            change={this.props.change}
-            focus={this.props.focus}
-            // movieName={this.state.movieName}
-            // change={(e) => this.onChangeHandler(e)}
-          /> */}
           <input
             type="text"
             placeholder="Search TMDB"
