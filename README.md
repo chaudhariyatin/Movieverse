@@ -2,4 +2,4 @@
 
 ![Hero image](public/icon.png?raw=true)
 
-#### Simple IMDB viewer
+#### Movies info app using TMDB API
